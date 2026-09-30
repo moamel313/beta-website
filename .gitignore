@@ -1,0 +1,15 @@
+# Separate Remotion video sub-project — not part of the deployed website
+video/
+
+# OS / editor junk
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Claude Code tooling state/skills — not website source
+.claude/
+
+# Env / secrets (none currently in this static site, keeping as a guard)
+.env
+.env.local
+.env*.local
